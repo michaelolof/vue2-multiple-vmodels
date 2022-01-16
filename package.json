@@ -1,0 +1,25 @@
+{
+  "name": "vue2-multiple-vmodels",
+  "version": "0.0.1",
+  "description": "A vue2 implementation for v-models and v-model object destructuring",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && ./node_modules/.bin/tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "multiple v-models",
+    "Multiple v-models for vue2",
+    "vue2 multiple v-models",
+    "v-model object destructuring"
+  ],
+  "author": "https://github.com/michaelolof",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/vue": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint": "^8.7.0",
+    "typescript": "^4.5.4"
+  }
+}
