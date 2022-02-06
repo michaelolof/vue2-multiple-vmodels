@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && ./node_modules/.bin/tsc",
-    "lint": "eslint . --ext .ts"
+    "watch": "rm -rf dist && ./node_modules/.bin/tsc --watch",
+    "lint": "eslint . --ext .ts",
+    "test:e2e": "cd ./test/e2e && npm run serve"
   },
   "keywords": [
     "multiple v-models",

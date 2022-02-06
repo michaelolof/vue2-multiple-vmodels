@@ -18,5 +18,8 @@
         "quotes": [2, "double"],
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/ban-ts-comment": "off"
-    }
+    },
+    "overrides": [
+      { "files": ["src/**/*.{ts}"] }
+    ]
 }

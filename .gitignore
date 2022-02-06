@@ -1,3 +1,4 @@
 node_modules
 old-eslintrc
 directives.js
+test/e2e/vue2-multiple-modules-e2e/node_modules
