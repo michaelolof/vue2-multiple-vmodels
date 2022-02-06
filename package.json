@@ -1,6 +1,6 @@
 {
   "name": "vue2-multiple-vmodels",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A vue2 implementation for v-models and v-model object destructuring",
   "main": "dist/index.js",
   "scripts": {
